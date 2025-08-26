@@ -1,0 +1,9 @@
+data_folder_old,C:/Users/ZeelP/Documents/901_EEG-master/v1
+data_folder_new,C:/Users/ZeelP/Documents/901_EEG-master/v5
+output_data,C:/Users/ZeelP/Documents/901_EEG-master/v5.csv
+old_data,C:/Users/ZeelP/Documents/901_EEG-master/v1.csv
+new_data,C:/Users/ZeelP/Documents/901_EEG-master/v5.csv
+old_new_combined_data,C:/Users/ZeelP/Documents/Neurorehabilitation_analysis/GSR classification/combined.csv
+ready_data,C:/Users/ZeelP/Documents/Neurorehabilitation_analysis/GSR classification/combined.csv
+ground_truth,C:/Users/ZeelP/Documents/901_EEG-master/individual_ground_truth.csv
+predicted_data,C:/Users/ZeelP/Documents/901_EEG-master/predicted.csv

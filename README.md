@@ -1,8 +1,10 @@
-# 🧠 Emotion Recognition from PPG & HR Signals
+# Emotion Recognition from PPG & HR Signals
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/) [![Signal Processing](https://img.shields.io/badge/HRV-signal%20processing-6C5CE7.svg)]() [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This repository contains a full pipeline for preprocessing, feature extraction, normalization, and machine learning applied to heart rate (HR) and photoplethysmographic (PPG) signals recorded during emotional video stimuli.
 
-The extraction features codes are labeled with HR and PPG because the HR feature is given by imotions software while the PPG is a raw signal, which is preprocessed and showed better results at the moment of modelling the machine models algoritmns. Thefore, the codes which terminate with _PPG are the most valuable. 
+The extraction features codes are labeled with HR and PPG because the HR feature is given by imotions software while the PPG is a raw signal, which is preprocessed and showed better results at the moment of modelling the machine models algorithms. Therefore, the codes which terminate with _PPG are the most valuable. 
 
 ---
 
@@ -25,7 +27,7 @@ Preprocesses raw CSV files containing PPG and HR data:
 - Splits/merges video intervals and reassigns survey timestamps to target videos
 - Standardizes stimulus names and exports clean files
 
-> **Note:** The intervals are based in GSR intervals but pretending to have at least 15 seconds per stimuli where possible, that is the reason why some time from the surveys is taken and appened to the stimuli.
+> **Note:** The intervals are based in GSR intervals but pretending to have at least 15 seconds per stimuli where possible, that is the reason why some time from the surveys is taken and appended to the stimuli.
 ---
 
 ### `1,5. PSD_ind_Graphs`
